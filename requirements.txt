@@ -1,0 +1,6 @@
+FastAPI
+pydantic
+sqlalchemy==2.0.18
+aiosqlite
+django
+django-rest-framework
