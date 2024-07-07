@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="bg-slate-50 max-w-screen-lg">
+    <h1 class="text-3xl font-bold uppercase">Fan Controller Index Page</h1>
+    <p>Index page for the fan controller.</p>
+</div>
+<div>
+
+</div>
+<div class="mt-8 flex items-center justify-left">
+    <div class="pointer-events-auto ml-8 rounded-md bg-indigo-600 px-3 py-2 text-[0.8125rem] font-semibold leading-5 text-white hover:bg-indigo-500">
+        <button hx-post="/api/fan/off" hx-target="body">
+            Turn Off
+        </button>
+    </div>
+</div>
+
+{% endblock content %}

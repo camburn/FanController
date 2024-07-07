@@ -1,0 +1,12 @@
+{
+  "name": "59d84578-e7fb-4c94-ac7f-3769b12a12e1",
+  "capabilities": [
+    { "command": "off", "description": "Turn fan off" },
+    { "command": "fan_1", "description": "Turn fan on power level 1" },
+    { "command": "fan_2", "description": "Turn fan on power level 2" },
+    { "command": "fan_3", "description": "Turn fan on power level 3" },
+    { "command": "fan_4", "description": "Turn fan on power level 4" },
+    { "command": "fan_5", "description": "Turn fan on power level 5" },
+    { "command": "fan_6", "description": "Turn fan on power level 6" }
+  ]
+}
